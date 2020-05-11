@@ -1,6 +1,6 @@
 const errorHandler = (err, req, res, next) => {
 	let message = err.message || "Internal Server Error";
-	let statusCode = err.status || 500;
+	let statusCode = err.statusCode || 500;
 
 	if (err.name === "SequelizeValidationError") {
 		const fields = err.errors.map(field => field.path);

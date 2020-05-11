@@ -1,8 +1,8 @@
 Y=2020
 M=5
-D=10
+D=11
 i=23
-comment="user login, signup"
+comment="getprofile, feed"
 
 export GIT_COMMITTER_DATE="$Y-$M-$D 10:$i:34"
 export GIT_AUTHOR_DATE="$Y-$M-$D 10:$i:34"

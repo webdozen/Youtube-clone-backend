@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const User = require("../models/User");
+const { User } = require("../sequelize");
 
 exports.protect = async (req, res, next) => {
 	if (!req.headers.authorization) {
@@ -15,7 +15,7 @@ exports.protect = async (req, res, next) => {
 		const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
 		const user = await User.findOne({
-			attributes: ["firstname", "lastname", "username", "email"],
+			attributes: ["id", "firstname", "lastname", "username", "email"],
 			where: {
 				id: decoded.id
 			}
@@ -29,4 +29,15 @@ exports.protect = async (req, res, next) => {
 			statusCode: 401
 		});
 	}
+};
+
+exports.admin = async (req, res, next) => {
+	if (req.user.isAdmin) {
+		next();
+	}
+
+	return next({
+		message: "You need to an admin to visit this route",
+		statusCode: 401
+	});
 };
