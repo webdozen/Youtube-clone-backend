@@ -86,6 +86,9 @@ heroku config # if everything worked you will a connection string
 
 ![Watch](screenshots/video.png)
 
+### Suggestions
+![Suggestions](screenshots/suggestions.png)
+
 ### Channel
 
 ![Trending](screenshots/profile.png)
@@ -108,3 +111,11 @@ heroku config # if everything worked you will a connection string
 
 With this clone, I am finishing what I call 'my clone trilogy'. If you are interested, you can visit my other clones that are part of this trilogy
 
+1. Twitter
+
+   - [Frontend](https://github.com/manikandanraji/twitter-clone-frontend)
+   - [Backend](https://github.com/manikandanraji/twitter-clone-frontend)
+
+2. Instagram
+   - [Frontend](https://github.com/manikandanraji/instaclone-frontend)
+   - [Backend](https://github.com/manikandanraji/instaclone-backend)
