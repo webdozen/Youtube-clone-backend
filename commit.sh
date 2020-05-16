@@ -1,8 +1,8 @@
 Y=2020
 M=5
-D=15
+D=16
 i=23
-comment="default avatar url"
+comment="updated README.md"
 
 export GIT_COMMITTER_DATE="$Y-$M-$D 10:$i:34"
 export GIT_AUTHOR_DATE="$Y-$M-$D 10:$i:34"
