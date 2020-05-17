@@ -2,7 +2,7 @@
 
 Youtube clone using PERN stack (Postgres, Express, React, Node). 
 
-This is the backend repository, built with Express + Sequelize. If you are looking for the frontend repository, [click here](https://github.com/manikandanraji/youtubeclone-frontend)
+This is the backend repository, built with Express + Sequelize. If you are looking for the frontend repository, [click here](https://github.com/webdozen/Youtube-clone-frontend)
 
 Check out the [deployed site](https://utubeclone.netlify.app/)
 
@@ -113,11 +113,4 @@ heroku config # if everything worked you will a connection string
 
 With this clone, I am finishing what I call 'my clone trilogy'. If you are interested, you can visit my other clones that are part of this trilogy
 
-1. Twitter
 
-   - [Frontend](https://github.com/manikandanraji/twitter-clone-frontend)
-   - [Backend](https://github.com/manikandanraji/twitter-clone-frontend)
-
-2. Instagram
-   - [Frontend](https://github.com/manikandanraji/instaclone-frontend)
-   - [Backend](https://github.com/manikandanraji/instaclone-backend)
