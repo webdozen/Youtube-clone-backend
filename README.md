@@ -109,8 +109,6 @@ heroku config # if everything worked you will a connection string
 
 ![Search](screenshots/search_results.png)
 
-## My Clone Trilogy
 
-With this clone, I am finishing what I call 'my clone trilogy'. If you are interested, you can visit my other clones that are part of this trilogy
 
 
